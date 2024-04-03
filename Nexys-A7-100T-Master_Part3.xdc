@@ -162,9 +162,9 @@ set_property -dict { PACKAGE_PIN P18   IOSTANDARD LVCMOS33 } [get_ports { btn[0]
 #set_property -dict { PACKAGE_PIN B12   IOSTANDARD LVCMOS33 } [get_ports { VGA_VS }]; #IO_L3N_T0_DQS_AD1N_15 Sch=vga_vs
 
 
-set_property -dict { PACKAGE_PIN A4    IOSTANDARD LVCMOS33 } [get_ports { rgb_8bit[23] }]; #IO_L8P_T1_AD14P_35 Sch=vga_r[3]
-set_property -dict { PACKAGE_PIN A6    IOSTANDARD LVCMOS33 } [get_ports { rgb_8bit[15] }]; #IO_L3P_T0_DQS_AD5P_35 Sch=vga_g[3]
-set_property -dict { PACKAGE_PIN D8    IOSTANDARD LVCMOS33 } [get_ports { rgb_8bit[7] }]; #IO_L4P_T0_35 Sch=vga_b[3]
+set_property -dict { PACKAGE_PIN A4    IOSTANDARD LVCMOS33 } [get_ports { rgb_top[2] }]; #IO_L8P_T1_AD14P_35 Sch=vga_r[3]
+set_property -dict { PACKAGE_PIN A6    IOSTANDARD LVCMOS33 } [get_ports { rgb_top[1] }]; #IO_L3P_T0_DQS_AD5P_35 Sch=vga_g[3]
+set_property -dict { PACKAGE_PIN D8    IOSTANDARD LVCMOS33 } [get_ports { rgb_top[0] }]; #IO_L4P_T0_35 Sch=vga_b[3]
 
 set_property -dict { PACKAGE_PIN B11   IOSTANDARD LVCMOS33 } [get_ports { hsync }]; #IO_L4P_T0_15 Sch=vga_hs
 set_property -dict { PACKAGE_PIN B12   IOSTANDARD LVCMOS33 } [get_ports { vsync }]; #IO_L3N_T0_DQS_AD1N_15 Sch=vga_vs
